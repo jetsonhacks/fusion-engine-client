@@ -24,7 +24,6 @@ if __name__ == "__main__":
     while True:
         # Read the next packet.
         data = sock.recv(1024)
-
         # Deserialize the header.
         try:
             header = MessageHeader()
